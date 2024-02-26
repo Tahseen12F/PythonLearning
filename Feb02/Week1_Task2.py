@@ -1,0 +1,10 @@
+# 2. Take a user input (Name, age, roll num, phone num )and print user details
+Name = input("Enter your name : ")
+Age = int(input("Enter your age : "))
+Roll_number = int(input("Enter your roll number : "))
+Phone_number = int(input("Enter your phone number : "))
+print("...........USER DETAILS...........")
+print("Name :", Name)
+print("Age :", Age)
+print("Roll_number :", Roll_number)
+print("Phone_number:", Phone_number)
