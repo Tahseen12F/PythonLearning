@@ -18,5 +18,19 @@ def fact(n):
 
 
 num = int(input("enter the num"))
-print("factorial of num is :",fact(num))
+print("factorial of num is :", fact(num))
+
+
+# Reverse of String using Function
+def reverse_number(name):
+    str = input("Enter the name")
+    original_str = str
+    rev_str = " "
+    for c in str:
+        rev_str = c + rev_str
+    return rev_str
+
+
+print("Reverse of string", reverse_number(str))
+
 
